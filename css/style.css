@@ -15,10 +15,9 @@ body {
 
 .logo {
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: calc(31/26);
 letter-spacing: 0.03em;
 color: var(--button-color);
 text-decoration: none;
@@ -31,9 +30,8 @@ text-decoration: none;
 }
 
 .nav_list {
-   
-    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--hero-catalogue);
@@ -42,8 +40,8 @@ text-decoration: none;
 
 }
 .nav_item {
-    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--hero-catalogue);
@@ -51,8 +49,8 @@ text-decoration: none;
     text-decoration: none;
 }
 .nav_link {
-    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--hero-catalogue);
@@ -63,9 +61,8 @@ text-decoration: none;
     color: var(--button-color);
 }
 .header_tel {
-   
-    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-title-color);
@@ -73,8 +70,8 @@ text-decoration: none;
 }
 
 .header_mail {
-    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: var(--secondary-title-color);
@@ -91,6 +88,7 @@ text-decoration: none;
 
 .hero_btn {font-family: 'Roboto' sans-serif;
     font-weight: 700;
+    font-size: 16px;
     line-height: calc(30/16);
     display: flex;
     align-items: center;
@@ -109,9 +107,9 @@ text-decoration: none;
 }
 
 .hero_title {
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 900;
+    font-size: 44px;
     line-height: calc(60/44);
     text-align: center;
     letter-spacing: 0.06em;
@@ -121,9 +119,9 @@ text-decoration: none;
 }
 
 .hero_catalogue {
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 700;
+    font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -132,27 +130,24 @@ text-decoration: none;
 }
 
 .hero_description {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
+    font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
 }
 
 .hero_work {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
+    font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--hero-catalogue);
 }
 .hero_team {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
+    font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
@@ -160,9 +155,8 @@ text-decoration: none;
 
 }
 .hero_team_name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
+    font-size: 16px;
     line-height: calc(19/16);
     text-align: center;
     letter-spacing: 0.03em;
@@ -170,9 +164,8 @@ text-decoration: none;
 }
 
 .hero_team_position{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
     line-height: calc(19/16);
     text-align: center;
     letter-spacing: 0.03em;
@@ -183,8 +176,8 @@ text-decoration: none;
 }
 .logo_footer {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
+    font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
     color: var(--button-color);
@@ -198,9 +191,9 @@ text-decoration: none;
 }
 
 .adress {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: var(--main-title-color);
@@ -208,9 +201,9 @@ text-decoration: none;
 }
 
 .footer_header_mail {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: var(--footer-color);
@@ -219,9 +212,9 @@ text-decoration: none;
 }
 
 .footer_header_tel {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: var(--footer-color);
@@ -234,10 +227,9 @@ text-decoration: none;
 
 .btn_prtfl {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--hero-catalogue);
@@ -253,17 +245,14 @@ text-decoration: none;
   
 }
 .title_work {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+font-size: 18px;
 line-height: calc(36/18);
 letter-spacing: 0.06em;
 color: var(--hero-catalogue);
 }
 .type_work {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
+font-size: 16px;
 line-height: calc(30/16);
 letter-spacing: 0.03em;
 color: var(--secondary-title-color);
