@@ -242,7 +242,7 @@ text-decoration: none;
 }
 .btn_prtfl:hover, .btn_prtfl:focus {
     background: var(--button-color);
-  
+    color: var(--main-title-color)
 }
 .title_work {
 font-size: 18px;
