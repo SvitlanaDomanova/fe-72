@@ -1,3 +1,13 @@
+:root {
+    --main-title-color: #FFFFFF;
+    --button-color: #2196F3;
+    --secondary-button-color: #F5F4FA;
+    --secondary-title-color: #757575;
+    --hero-background: #2F303A;
+    --hero-catalogue: #212121;
+    --footer-color:rgba(255, 255, 255, 0.6);
+    --main-color:#000000;
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -10,13 +20,13 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--button-color);
 text-decoration: none;
 
 }
 
 .logo_header {
-    color: #000000;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -26,7 +36,7 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--hero-catalogue);
     list-style: none;
     text-decoration: none;
 
@@ -36,7 +46,7 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--hero-catalogue);
     list-style: none;
     text-decoration: none;
 }
@@ -45,12 +55,12 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--hero-catalogue);
     list-style: none;
     text-decoration: none;
 }
 .nav_link:hover, .nav_link:focus {
-    color: #2196F3;
+    color: var(--button-color);
 }
 .header_tel {
    
@@ -58,7 +68,7 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--secondary-title-color);
     text-decoration: none;
 }
 
@@ -67,16 +77,16 @@ text-decoration: none;
     font-weight: 500;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--secondary-title-color);
     text-decoration: none;
 }
 
 .header_mail:hover, .header_mail:focus {
-    color: #2196F3;
+    color: var(--button-color);
 }
 
 .header_tel:hover, .header_tel:focus {
-        color: #2196F3;
+        color: var(--button-color);
     }
 
 .hero_btn {font-family: 'Roboto' sans-serif;
@@ -86,17 +96,16 @@ text-decoration: none;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--main-title-color);
+    background: var(--button-color);
     border-radius: 4px;
     cursor: pointer;
 }
 .hero_btn:hover, .hero_btn:focus {
-    border-color: #FFFFFF;
+    border-color: var(--main-title-color);
 }
 .hero{
-    background: #2F303A;
+    background: var(--hero-background);
 }
 
 .hero_title {
@@ -107,7 +116,7 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-title-color);
     
 }
 
@@ -118,7 +127,7 @@ text-decoration: none;
     line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--hero-catalogue)
     
 }
 
@@ -128,7 +137,7 @@ text-decoration: none;
     font-weight: 400;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-title-color);
 }
 
 .hero_work {
@@ -138,7 +147,7 @@ text-decoration: none;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--hero-catalogue);
 }
 .hero_team {
     font-family: 'Roboto';
@@ -147,7 +156,7 @@ text-decoration: none;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--hero-catalogue);
 
 }
 .hero_team_name {
@@ -157,7 +166,7 @@ text-decoration: none;
     line-height: calc(19/16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--hero-catalogue);
 }
 
 .hero_team_position{
@@ -167,10 +176,10 @@ text-decoration: none;
     line-height: calc(19/16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-title-color);
 }
 .footer {
-    background-color: #2F303A;
+    background-color: var(--hero-background);
 }
 .logo_footer {
     font-family: 'Raleway';
@@ -178,11 +187,11 @@ text-decoration: none;
     font-weight: 700;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--button-color);
     text-decoration: none;
 }
 .logo_footer_part {
-    color: #000000;
+    color: var(--main-color);
     text-decoration: none;
     list-style: none;
     text-decoration: none;
@@ -194,7 +203,7 @@ text-decoration: none;
     font-weight: 400;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--main-title-color);
     text-decoration: none;
 }
 
@@ -204,7 +213,7 @@ text-decoration: none;
     font-weight: 400;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-color);
     text-decoration: none;
   
 }
@@ -215,7 +224,7 @@ text-decoration: none;
     font-weight: 400;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-color);
     text-decoration: none;
 }
 
@@ -231,16 +240,16 @@ text-decoration: none;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--hero-catalogue);
     cursor: pointer;
-    background: #F5F4FA;
+    background: var(--secondary-button-color);
     border-radius: 4px;
     display: inline;
     align-items: center;
     cursor: pointer;
 }
 .btn_prtfl:hover, .btn_prtfl:focus {
-    background: #2196F3;
+    background: var(--button-color);
   
 }
 .title_work {
@@ -249,7 +258,7 @@ font-style: normal;
 font-weight: 700;
 line-height: calc(36/18);
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--hero-catalogue);
 }
 .type_work {
 font-family: 'Roboto';
@@ -257,20 +266,20 @@ font-style: normal;
 font-weight: 400;
 line-height: calc(30/16);
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--secondary-title-color);
 }
 .title_work:hover, .title_work:focus 
 {
-    color: #2196F3; 
+    color: var(--button-color); 
 }
 
 .adress:hover,:focus {
-    color: #2196F3;
+    color: var(--button-color);
 }
 .footer_header_mail:hover, .footer_header_mail:focus {
-    color: #2196F3;
+    color: var(--button-color);
 }
 
 .footer_header_tel:hover, .footer_header_tel:focus {
-    color:#2196F3;
+    color: var(--button-color);
 }
